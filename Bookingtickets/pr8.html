@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bookingtickets</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-muted">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        
+          <img src="logo3.png" alt="Logo" style="width:100px;"  class="rounded-circle" >
+      </a>
+      <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+        
+       
+        <h5><a href="index.html"style="color:white;">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#Movies"style="color:white;">Movies</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#About"style="color:white;">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#Contact"style="color:white;">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        </h5>
+        <div class="dropdown">
+          <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+           location
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="https://www.google.com/maps/place/%E0%B0%AC%E0%B0%BE%E0%B0%B2%E0%B0%BE%E0%B0%9C%E0%B1%80+%E0%B0%A5%E0%B0%BF%E0%B0%AF%E0%B1%87%E0%B0%9F%E0%B0%B0%E0%B1%8D/data=!4m7!3m6!1s0x3a361caf4e7c0797:0x23aa875a3f1f56e9!8m2!3d16.4292796!4d80.9976134!16s%2Fg%2F1tf46kqx!19sChIJlwd8Tq8cNjoR6VYfP1qHqiM?authuser=0&hl=te&rclk=1">
+              Balaji Theatre</a></li>
+            <li><a class="dropdown-item" href="https://www.google.com/maps/place/G3+Sindhura/data=!4m7!3m6!1s0x3a361b567607381f:0x8c1c626d371a7111!8m2!3d16.4376898!4d80.9919167!16s%2Fg%2F11c60m5_hy!19sChIJHzgHdlYbNjoREXEaN21iHIw?authuser=0&hl=te&rclk=1">
+              G-3 Sindhura</a></li>
+            <li><a class="dropdown-item" href="https://www.google.com/maps/place/The+Next+Powered+By+ABR+CINEMAS/data=!4m7!3m6!1s0x3a361dda4cf187cb:0xd59c99bb72979518!8m2!3d16.4319162!4d80.9919328!16s%2Fg%2F11j1n0n6tn!19sChIJy4fxTNodNjoRGJWXcruZnNU?authuser=0&hl=te&rclk=1">
+              The Next Theatre </a></li>
+             <li><a class="dropdown-item" href="https://www.google.com/maps/place/%E0%B0%9C%E0%B0%BF3+%E0%B0%AD%E0%B0%BE%E0%B0%B8%E0%B1%8D%E0%B0%95%E0%B0%B0%E0%B1%8D/data=!4m7!3m6!1s0x3a361cabeb28cac5:0xaf5e45721d51de42!8m2!3d16.4304366!4d80.9914235!16s%2Fg%2F1tp_4tlp!19sChIJxcoo66scNjoRQt5RHXJFXq8?authuser=0&hl=te&rclk=1">
+              Bhaskar Theatre </a></li>
+          </ul>
+        </div>
+        
+        
+          <div class="dropdown">
+            <button class="btn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+             <i  class="fa fa-user-circle" style="font-size:48px;color:white" ></i></button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="pr15.html">SIGNUP</a></li>
+          <li><a class="dropdown-item" href="pr16.html">LOGIN </a></li>
+        </ul>
+        </div>
+      </nav>
+  <div class="container-fluid pt-5">
+    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+          <input type="checkbox" class="btn-check" id="btncheck363" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btncheck363">11:30</label>&nbsp;&nbsp;
+      
+        <input type="checkbox" class="btn-check" id="btncheck364" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btncheck364">2:30</label>&nbsp;&nbsp;
+      
+        <input type="checkbox" class="btn-check" id="btncheck365" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btncheck365">6:30</label>&nbsp;&nbsp;
+
+        <input type="checkbox" class="btn-check" id="btncheck366" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btncheck366">9:30</label>&nbsp;&nbsp;
+        </div>
+  </div>
+    <div class="container pt-5">
+      PLATINUM-Rs. 150.00
+      <hr>
+      <div class="row">
+        <div class="col-sm-6">
+            <table style="width:100%">
+                <tr>
+            <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                A  <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck1">1</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck2">2</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck3">3</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck4" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck4">4</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck5" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck5">5</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck6" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck6">6</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck7" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck7">7</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck8" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck8">8</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck9" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck9">9</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck10" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck10">10</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck11" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck11">11</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck12" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck12">12</label>&nbsp;&nbsp;
+
+                
+                </div>
+                <br><br>
+                <div class="btn-group" role="group" aria-label="Basic toggle button group">
+                B<input type="checkbox" class="btn-check" id="btncheck13" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck13">1</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck14" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck14">2</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck15" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck15">3</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck16" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck16">4</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck17" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck17">5</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck18" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck18">6</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck19" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck19">7</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck20" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck20">8</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck21" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck21">9</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck22" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck22">10</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck23" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck23">11</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck24" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck24">12</label>&nbsp;&nbsp;                   
+              </div><br><br>
+              <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                C  <input type="checkbox" class="btn-check" id="btncheck25" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck25">1</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck26" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck26">2</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck27" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck27">3</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck28" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck28">4</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck29" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck29">5</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck30" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck30">6</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck31" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck31">7</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck32" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck32">8</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck33" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck33">9</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck34" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck34">10</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck35" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck35">11</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck36" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck36">12</label>&nbsp;&nbsp;                
+                </div>
+                <br><br>
+                <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                D  <input type="checkbox" class="btn-check" id="btncheck37" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck37">1</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck38" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck38">2</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck39" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck39">3</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck40" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck40">4</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck41" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck41">5</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck42" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck42">6</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck43" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck43">7</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck44" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck44">8</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck45" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck45">9</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck46" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck46">10</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck47" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck47">11</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck48" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck48">12</label>&nbsp;&nbsp;                
+              </div>
+              <br><br>
+<div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                E  <input type="checkbox" class="btn-check" id="btncheck49" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck49">1</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck50" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck50">2</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck51" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck51">3</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck52" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck52">4</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck53" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck53">5</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck54" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck54">6</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck55" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck55">7</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck56" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck56">8</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck57" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck57">9</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck60" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck60">10</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck61" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck61">11</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck62" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck62">12</label>&nbsp;&nbsp;                
+                </div>
+                <br><br>
+                <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                F  <input type="checkbox" class="btn-check" id="btncheck63" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck63">1</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck64" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck64">2</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck65" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck65">3</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck66" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck66">4</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck67" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck67">5</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck68" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck68">6</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck69" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck69">7</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck70" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck70">8</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck71" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck71">9</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck72" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck72">10</label>&nbsp;&nbsp;
+
+                <input type="checkbox" class="btn-check" id="btncheck73" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck73">11</label>&nbsp;&nbsp;
+              
+                <input type="checkbox" class="btn-check" id="btncheck74" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck74">12</label>&nbsp;&nbsp;                
+              </div>
+              </tr>
+              </table>
+              </div>
+<div class="col-sm-6">
+                <table style="width:100%">
+                  <tr>
+                    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        A  <input type="checkbox" class="btn-check" id="btncheck75" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck75">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck76" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck76">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck77" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck77">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck78" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck78">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck79" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck79">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck80" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck80">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck81" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck81">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck82" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck82">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck83" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck83">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck84" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck84">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck85" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck85">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck86" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck86">12</label>&nbsp;&nbsp;                            
+                        </div>
+                        <br><br>
+                        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        B  <input type="checkbox" class="btn-check" id="btncheck87" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck87">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck88" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck88">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck89" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck89">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck90" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck90">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck91" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck91">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck92" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck92">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck93" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck93">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck94" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck94">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck95" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck95">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck96" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck96">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck97" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck97">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck98" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck98">12</label>&nbsp;&nbsp;                            
+                      </div><br><br>
+                      <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        C  <input type="checkbox" class="btn-check" id="btncheck99" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck99">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck100" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck100">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck101" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck101">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck102" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck102">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck103" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck103">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck104" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck104">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck105" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck105">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck106" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck106">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck107" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck107">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck108" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck108">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck109" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck109">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck110" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck110">12</label>&nbsp;&nbsp;                            
+                        </div>
+                        <br><br>
+                        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        D  <input type="checkbox" class="btn-check" id="btncheck111" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck111">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck112" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck112">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck113" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck113">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck114" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck114">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck115" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck115">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck116" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck116">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck117" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck117">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck118" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck118">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck119" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck119">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck120" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck120">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck121" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck121">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck122" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck122">12</label>&nbsp;&nbsp;                                
+                      </div>
+                      <br><br>
+                      <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        E  <input type="checkbox" class="btn-check" id="btncheck123" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck123">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck124" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck124">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck125" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck125">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck126" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck126">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck127" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck127">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck128" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck128">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck129" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck129">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck130" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck130">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck131" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck131">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck132" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck132">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck133" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck133">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck134" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck134">12</label>&nbsp;&nbsp;                                
+                        </div>
+                        <br><br>
+                        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        F  <input type="checkbox" class="btn-check" id="btncheck135" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck135">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck136" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck136">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck137" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck137">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck138" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck138">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck139" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck139">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck140" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck140">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck141" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck141">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck142" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck142">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck143" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck143">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck144" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck144">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck145" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck145">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck146" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck146">12</label>&nbsp;&nbsp;                           
+                      </div>
+                      </tr>
+                      </table>
+                      </div>
+                      <br>
+                      GOLD-Rs. 100.00
+                      <hr>
+                      <div class="col-sm-12">
+                        <table style="width:100%">
+                          <tr>
+                      <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        A  <input type="checkbox" class="btn-check" id="btncheck147" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck147">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck148" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck148">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck149" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck149">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck150" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck150">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck151" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck151">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck152" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck152">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck153" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck153">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck154" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck154">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck155" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck155">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck156" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck156">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck157" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck157">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck158" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck158">12</label>&nbsp;&nbsp; 
+                        
+                        <input type="checkbox" class="btn-check" id="btncheck159" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck159">13</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck160" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck160">14</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck161" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck161">15</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck162" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck162">16</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck163" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck163">17</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck164" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck164">18</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck165" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck165">19</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck166" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck166">20</label>&nbsp;&nbsp;
+
+                        <input type="checkbox" class="btn-check" id="btncheck167" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck167">21</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck168" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck168">22</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck169" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck169">23</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck170" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck170">24</label>&nbsp;&nbsp;
+                        </div>
+                        <br><br>
+                        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        B  <input type="checkbox" class="btn-check" id="btncheck171" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck171">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck172" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck172">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck173" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck173">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck174" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck174">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck175" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck175">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck176" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck176">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck177" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck177">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck178" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck178">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck179" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck179">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck180" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck180">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck181" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck181">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck182" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck182">12</label>&nbsp;&nbsp; 
+                        
+                        <input type="checkbox" class="btn-check" id="btncheck183" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck183">13</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck184" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck184">14</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck185" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck185">15</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck186" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck186">16</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck187" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck187">17</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck188" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck188">18</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck189" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck189">19</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck190" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck190">20</label>&nbsp;&nbsp;
+
+                        <input type="checkbox" class="btn-check" id="btncheck191" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck191">21</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck192" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck192">22</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck193" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck193">23</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck194" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck194">24</label>&nbsp;&nbsp;
+                      </div><br><br>
+                      <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        C  <input type="checkbox" class="btn-check" id="btncheck195" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck195">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck196" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck196">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck197" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck197">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck198" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck198">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck199" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck199">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck200" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck200">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck201" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck201">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck202" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck202">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck203" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck203">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck204" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck204">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck205" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck205">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck206" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck206">12</label>&nbsp;&nbsp;
+                        
+                        <input type="checkbox" class="btn-check" id="btncheck207" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck207">13</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck208" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck208">14</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck209" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck209">15</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck210" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck210">16</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck211" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck211">17</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck212" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck212">18</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck213" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck213">19</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck214" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck214">20</label>&nbsp;&nbsp;
+
+                        <input type="checkbox" class="btn-check" id="btncheck215" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck215">21</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck216" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck216">22</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck217" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck217">23</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck218" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck218">24</label>&nbsp;&nbsp;
+                        </div>
+                        <br><br>
+                        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        D  <input type="checkbox" class="btn-check" id="btncheck219" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck219">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck220" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck220">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck221" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck221">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck222" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck222">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck223" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck223">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck224" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck224">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck225" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck225">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck226" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck226">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck227" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck227">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck228" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck228">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck229" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck229">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck230" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck230">12</label>&nbsp;&nbsp;  
+                        
+                        <input type="checkbox" class="btn-check" id="btncheck231" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck231">13</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck232" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck232">14</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck233" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck233">15</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck234" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck234">16</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck235" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck235">17</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck236" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck236">18</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck237" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck237">19</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck238" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck238">20</label>&nbsp;&nbsp;
+
+                        <input type="checkbox" class="btn-check" id="btncheck239" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck239">21</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck240" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck240">22</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck241" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck241">23</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck242" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck242">24</label>&nbsp;&nbsp;
+                      </div>                                            
+                </tr>
+                </table>
+                </div>
+                <br>
+         SILVER-Rs. 50.00
+                <hr>
+               <div class="col-sm-9">
+                <table style="width:100%">
+                <tr>
+                    <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        A  <input type="checkbox" class="btn-check" id="btncheck243" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck243">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck244" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck244">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck245" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck245">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck246" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck246">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck247" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck247">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck248" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck248">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck249" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck249">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck250" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck250">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck251" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck251">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck252" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck252">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck253" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck253">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck254" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck254">12</label>&nbsp;&nbsp; 
+                        
+                        <input type="checkbox" class="btn-check" id="btncheck255" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck255">13</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck256" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck256">14</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck257" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck257">15</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck258" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck258">16</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck259" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck259">17</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck260" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck260">18</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck261" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck261">19</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck262" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck262">20</label>&nbsp;&nbsp;
+
+                        <input type="checkbox" class="btn-check" id="btncheck263" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck263">21</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck264" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck264">22</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck265" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck265">23</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck266" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck266">24</label>&nbsp;&nbsp;
+                        </div>
+                        <br><br>
+                        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        B  <input type="checkbox" class="btn-check" id="btncheck267" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck267">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck268" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck268">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck269" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck269">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck270" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck270">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck271" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck271">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck272" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck272">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck273" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck273">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck274" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck274">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck275" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck275">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck276" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck276">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck277" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck277">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck278" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck278">12</label>&nbsp;&nbsp; 
+                        
+                        <input type="checkbox" class="btn-check" id="btncheck279" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck279">13</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck280" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck280">14</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck281" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck281">15</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck282" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck282">16</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck283" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck283">17</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck284" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck284">18</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck285" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck285">19</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck286" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck286">20</label>&nbsp;&nbsp;
+
+                        <input type="checkbox" class="btn-check" id="btncheck287" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck287">21</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck288" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck288">22</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck289" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck289">23</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck290" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck290">24</label>&nbsp;&nbsp;
+                      </div><br><br>
+                      <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        C  <input type="checkbox" class="btn-check" id="btncheck291" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck291">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck292" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck292">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck293" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck293">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck294" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck294">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck295" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck295">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck296" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck296">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck297" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck297">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck298" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck298">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck299" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck299">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck300" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck300">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck301" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck301">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck302" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck302">12</label>&nbsp;&nbsp;
+                        
+                        <input type="checkbox" class="btn-check" id="btncheck303" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck303">13</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck304" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck304">14</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck305" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck305">15</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck306" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck306">16</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck307" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck307">17</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck308" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck308">18</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck309" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck309">19</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck310" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck310">20</label>&nbsp;&nbsp;
+
+                        <input type="checkbox" class="btn-check" id="btncheck311" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck311">21</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck312" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck312">22</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck313" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck313">23</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck314" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck314">24</label>&nbsp;&nbsp;
+                        </div>
+                        <br><br>
+                        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        D  <input type="checkbox" class="btn-check" id="btncheck315" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck315">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck316" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck316">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck317" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck317">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck318" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck318">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck319" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck319">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck320" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck320">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck321" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck321">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck322" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck322">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck323" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck323">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck324" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck324">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck325" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck325">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck326" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck326">12</label>&nbsp;&nbsp;  
+                        
+                        <input type="checkbox" class="btn-check" id="btncheck327" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck327">13</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck328" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck328">14</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck329" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck329">15</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck330" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck330">16</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck331" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck331">17</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck332" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck332">18</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck333" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck333">19</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck334" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck334">20</label>&nbsp;&nbsp;
+
+                        <input type="checkbox" class="btn-check" id="btncheck335" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck335">21</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck336" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck336">22</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck337" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck337">23</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck338" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck338">24</label>&nbsp;&nbsp;
+                      </div><br><br>
+                      <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+                        E  <input type="checkbox" class="btn-check" id="btncheck339" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck339">1</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck340" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck340">2</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck341" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck341">3</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck342" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck342">4</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck343" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck343">5</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck344" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck344">6</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck345" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck345">7</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck346" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck346">8</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck347" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck347">9</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck348" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck348">10</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck349" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck349">11</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck350" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck350">12</label>&nbsp;&nbsp;  
+                        
+                        <input type="checkbox" class="btn-check" id="btncheck351" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck351">13</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck352" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck352">14</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck353" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck353">15</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck354" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck354">16</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck355" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck355">17</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck356" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck356">18</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck357" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck357">19</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck358" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck358">20</label>&nbsp;&nbsp;
+
+                        <input type="checkbox" class="btn-check" id="btncheck359" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck359">21</label>&nbsp;&nbsp; 
+
+                        <input type="checkbox" class="btn-check" id="btncheck360" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck360">22</label>&nbsp;&nbsp;
+        
+                        <input type="checkbox" class="btn-check" id="btncheck361" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck361">23</label>&nbsp;&nbsp;
+                      
+                        <input type="checkbox" class="btn-check" id="btncheck362" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="btncheck362">24</label>&nbsp;&nbsp;
+                      </div>
+                      </tr>
+                      </table>
+                      </div>
+                      
+                      <center><i class="fa fa-eye text-align-center" style="font-size:24px"></i><br>
+                        All Eyes This Way Please!</center>
+                       </div>
+                       </div>
+                       <center><a href="pr11.html" class="btn btn-primary">Book tickets</a></center>
+                      <br><br>
+                      <br><br><br><br>
+    <nav class="navbar navbar-expand-sm bg-secondary"style= "padding-left: 1200px;">
+      <i class="fa fa-facebook-square" style="font-size:48px;color:rgb(32, 32, 236)"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <i class="fa fa-instagram" style="font-size:48px;color:rgba(235, 20, 235, 0.945)"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <i class="fa fa-telegram" style="font-size:48px;color:rgb(16, 159, 241)"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-twitter" style="font-size:48px;color:rgb(223, 233, 233)"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <i class="fa fa-whatsapp" style="font-size:48px;color:rgb(29, 221, 29)"></i>
+            
+        </nav>
+    </body>
+</html>
